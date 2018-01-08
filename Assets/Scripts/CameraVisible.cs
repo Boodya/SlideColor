@@ -37,6 +37,6 @@ public class CameraVisible : MonoBehaviour {
         Instantiate(other.gameObject, trrain1Pos,Quaternion.identity);
         Destroy(other.gameObject);
         //
-        //other.gameObject.transform.position = trrain1Pos;
+    
     }
 }

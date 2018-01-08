@@ -5,7 +5,7 @@ using UnityEngine;
 //скрипт отвечает за движение дорог
 public class terrainMove : MonoBehaviour
 {
-    public static float  speed = 1.1f;
+    public static float  speed = 3.5f;
     float y = 0;
     
     void Start ()

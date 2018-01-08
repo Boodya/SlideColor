@@ -16,7 +16,6 @@ public class MovePlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
 	}
 
 
@@ -29,7 +28,9 @@ public class MovePlayer : MonoBehaviour {
         if(mousePos.x < -2.7f)
             mousePos.x = -2.7f;
         //
+
         //устанавливаем позиции игроку плавным образом
         player.position = Vector3.MoveTowards(player.position, new Vector3(mousePos.x, player.position.y, player.position.z),speed*Time.deltaTime);
+
     }
 }
